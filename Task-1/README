@@ -1,0 +1,15 @@
+# 📊 Task 1 - Sales Analysis
+
+## 🛠 Tools Used
+- Python
+- Google Looker Studio
+
+## 🔗 Dashboard
+[Click Here](https://lookerstudio.google.com/reporting/85a188ff-c15e-42d5-a608-1ff61b9d0bff)
+
+## 📁 Files
+- main.py
+- data.csv
+
+## 📌 Description
+This project analyzes sales data and creates insights.
