@@ -1,5 +1,7 @@
 # 📊 Task 1 - Sales Analysis
 
+1. Comparing Weekend and Weekday Sales in Q4 2022 Scenario: The Campaign Team wants to evaluate the effectiveness of their weekend promotional campaigns (Saturdays and Sundays) between October and December 2022 by comparing the average daily sales during weekends vs weekdays. Requirements: 1. Calculate the average daily sales (before_discount) for weekends (Saturdays and Sundays) and weekdays (Monday to Friday) for each month (October, November, and December 2022). 2. Calculate the average sales for weekends vs weekdays for the entire three-month period. 3. Share insights on whether sales increased during weekends. Key Features to Use: • order_date (for filtering by date and identifying days of the week) • before_discount (for sales data) • month_id, month_name, day_name, year (for extracting date-related information)
+
 ## 🛠 Tools Used
 - Python
 - Google Looker Studio
