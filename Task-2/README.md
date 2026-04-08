@@ -40,5 +40,4 @@ Identify the products that experienced the most significant decrease in sales be
 
 Bar chart showing Top 10 products with largest decrease in sales.
 
-Google Looker Studio Dashboard Link:
-PASTE YOUR LOOKER LINK HERE
+Google Looker Studio Dashboard Link:https://lookerstudio.google.com/reporting/08d764b8-f1e5-4bd2-b569-1834933d66d5
