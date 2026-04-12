@@ -1,0 +1,60 @@
+# Task 4: Total Revenue vs Discount Impact by Category
+
+## Objective
+The objective of this task is to analyze the total revenue for each product category before and after applying discounts, and to measure the impact of discounts on revenue.
+
+## Scenario
+The Marketing Team wants to understand how discounts affect category-wise revenue. This analysis compares total revenue before discount and after discount for each category and shows the discount impact.
+
+## Tools Used
+- Python
+- Pandas
+- SQLite
+- SQL
+- VS Code
+- Google Looker Studio
+
+## Dataset Fields Used
+- category
+- before_discount
+- after_discount
+
+## Steps Performed
+1. Loaded the order and product datasets into Python.
+2. Created SQLite tables for `order_detail` and `sku_detail`.
+3. Joined both tables using `sku_id` and `product_id`.
+4. Calculated total revenue before discount using `SUM(before_discount)`.
+5. Calculated total revenue after discount using `SUM(after_discount)`.
+6. Calculated discount impact using:
+   
+   `discount_impact = total_before_discount - total_after_discount`
+
+7. Exported the final category-wise analysis into a CSV file.
+8. Created visualizations in Google Looker Studio.
+
+## SQL Logic Used
+- Total Revenue Before Discount = `SUM(before_discount)`
+- Total Revenue After Discount = `SUM(after_discount)`
+- Discount Impact = `SUM(before_discount) - SUM(after_discount)`
+
+## Output File
+- category_revenue_discount_impact.csv
+
+## Visualization
+Two charts were created in Google Looker Studio:
+
+1. **Total Revenue Before and After Discount by Category**
+2. **Discount Impact on Revenue by Category**
+
+## Business Insight
+This analysis helps the marketing team identify which product categories are most affected by discounts and how discounting changes revenue across categories.
+
+## Files Included
+- main.py
+- README.md
+- order_detail.csv
+- sku_detail_clean.csv
+- category_revenue_discount_impact.csv
+- sales.db
+
+Google Looker Studio Link:https://lookerstudio.google.com/reporting/533ceb85-f74f-408a-a525-2b920ce34aac
