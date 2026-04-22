@@ -1,0 +1,47 @@
+# Task 5: Average Order Value (AOV) Over Time — Monthly Trend
+
+## Objective
+
+The objective of this task is to analyze how the Average Order Value (AOV) changes month over month in 2022.
+
+## Formula Used
+
+AOV = SUM(after_discount) / COUNT(DISTINCT order_id)
+
+## Tools Used
+
+- Python
+- Pandas
+- SQLite
+- SQL
+- VS Code
+- Google Looker Studio
+
+## Dataset Features Used
+
+- order_date
+- after_discount
+- order_id
+
+## Steps Performed
+
+1. Loaded order data into SQLite
+2. Filtered data for the year 2022
+3. Grouped data by month
+4. Calculated total revenue
+5. Counted distinct orders
+6. Calculated AOV
+7. Exported results to CSV
+8. Created a line chart in Looker Studio
+
+## Output File
+
+monthly_aov_2022.csv
+
+## Visualization
+
+Line chart showing the monthly AOV trend for 2022.
+
+## Business Insight
+
+This analysis helps the sales team understand customer spending behavior and identify seasonal purchasing patterns.
