@@ -1,0 +1,191 @@
+# Task 6: Sales Performance Based on Payment Method
+
+google looker studio : https://datastudio.google.com/reporting/b94d6f02-d821-4148-ac4f-91ff1a80f717
+
+## Objective
+
+The objective of this task is to analyze the performance of different payment methods in terms of total sales revenue, quantity sold, and net profit.  
+This analysis helps the finance team understand which payment methods contribute most to business performance.
+
+---
+
+## Scenario
+
+The Finance Team wants to evaluate how each payment method performs by analyzing:
+
+- Total sales revenue
+- Total quantity sold
+- Total net profit
+
+They also require the ability to filter performance data by month and quarter to understand seasonal trends.
+
+---
+
+## Tools and Technologies Used
+
+- Python
+- Pandas
+- SQLite
+- SQL
+- VS Code
+- Google Looker Studio
+
+---
+
+## Dataset Features Used
+
+- payment_method
+- before_discount
+- qty_ordered
+- after_discount
+- cogs
+- order_date
+
+---
+
+## Calculations Performed
+
+### Total Sales
+
+SUM(before_discount)
+
+### Total Quantity Sold
+
+SUM(qty_ordered)
+
+### Net Profit
+
+SUM(after_discount - cogs)
+
+---
+
+## Python Implementation
+
+### Steps Performed
+
+1. Loaded order data into Python using Pandas.
+2. Created SQLite database connection.
+3. Created table structure for order data.
+4. Generated payment method column.
+5. Created cost of goods sold (cogs) column.
+6. Aggregated sales performance by payment method.
+7. Calculated total sales revenue.
+8. Calculated total quantity sold.
+9. Calculated total net profit.
+10. Generated monthly and quarterly summaries.
+11. Exported results into CSV files.
+
+---
+
+## SQL Logic Used
+
+SELECT  
+payment_method,  
+SUM(before_discount) AS total_sales,  
+SUM(qty_ordered) AS total_quantity_sold,  
+SUM(after_discount - cogs) AS total_net_profit  
+FROM order_detail  
+GROUP BY payment_method;
+
+---
+
+## Output Files Generated
+
+- payment_method_performance.csv
+- payment_method_monthly_performance.csv
+- payment_method_quarterly_performance.csv
+- sales.db
+
+---
+
+## Google Looker Studio Dashboard
+
+Two separate dashboards were created to visualize payment method performance.
+
+---
+
+## Dashboard 1: Monthly Sales Performance by Payment Method
+
+### Charts Created
+
+1. Table: Sales Performance by Payment Method
+2. Bar Chart: Monthly Total Sales by Payment Method
+
+### Filter Added
+
+Month Filter:
+
+Allows users to view performance data for a selected month.
+
+Example:
+
+January 2022  
+February 2022  
+March 2022  
+
+---
+
+## Dashboard 2: Quarterly Sales Performance by Payment Method
+
+### Charts Created
+
+1. Table: Sales Performance by Payment Method
+2. Bar Chart: Quarterly Total Sales by Payment Method
+
+### Filter Added
+
+Quarter Filter:
+
+Allows users to view performance data for a selected quarter.
+
+Example:
+
+Q1  
+Q2  
+Q3  
+Q4  
+
+---
+
+## Dashboard Titles
+
+Monthly Dashboard:
+
+Monthly Sales Performance by Payment Method
+
+Quarterly Dashboard:
+
+Quarterly Sales Performance by Payment Method
+
+---
+
+## Business Insight
+
+This analysis helps the finance team:
+
+- Identify the most profitable payment methods
+- Track revenue performance
+- Monitor seasonal trends
+- Improve financial decision-making
+- Optimize payment strategy
+
+---
+
+## Repository Structure
+
+Task-6
+
+main.py  
+README.md  
+order_detail.csv  
+payment_method_performance.csv  
+payment_method_monthly_performance.csv  
+payment_method_quarterly_performance.csv  
+sales.db
+
+---
+
+## Author
+
+Data Analytics Internship Task  
+Python | SQL | Data Visualization | Looker Studio
