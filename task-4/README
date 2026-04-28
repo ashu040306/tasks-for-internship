@@ -6,7 +6,7 @@ The objective of this task is to analyze the total revenue for each product cate
 ## Scenario
 The Marketing Team wants to understand how discounts affect category-wise revenue. This analysis compares total revenue before discount and after discount for each category and shows the discount impact.
 
-Google Looker Studio Link:https://lookerstudio.google.com/reporting/533ceb85-f74f-408a-a525-2b920ce34aac
+Google Looker Studio Link:https://datastudio.google.com/reporting/219bee97-a17f-4493-bca9-087e6467b7f7
 
 ## Tools Used
 - Python
