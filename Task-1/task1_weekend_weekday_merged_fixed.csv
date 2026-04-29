@@ -1,0 +1,4 @@
+month_id,month_name,monthly_weekday_avg_sales,monthly_weekend_avg_sales,weekend_minus_weekday_difference,overall_weekday_avg_sales,overall_weekend_avg_sales,overall_weekend_minus_weekday_difference
+10,October,16172325.6,14649214.67,-1523110.9299999997,16234527.53,14790961.14,-1443566.3899999987
+11,November,18904133.33,15170132.0,-3734001.329999998,16234527.53,14790961.14,-1443566.3899999987
+12,December,13616756.67,14624410.0,1007653.33,16234527.53,14790961.14,-1443566.3899999987

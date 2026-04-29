@@ -1,0 +1,381 @@
+
+<!-- saved from url=(0132)blob:https://42bq8mdwwml8zrrib16f71bvos7lorvi1rq2rgv58jsvuumwl9-h895938989.scf.usercontent.goog/82ecfa1a-c792-477b-a69f-a548e7901f21 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link href="https://fonts.googleapis.com/css?family=Droid+Sans:400italic,700italic,400,700,500|Syncopate:400italic,700italic,400,700,500|Impact:400italic,700italic,400,700|Ubuntu:400italic,700italic,400,700|Ubuntu+Mono:400italic,700italic,400,700|Open+Sans:400italic,700italic,300,400,600,700|Lato:400italic,700italic,400,700|Oswald:400italic,700italic,400,700|Lora:400italic,700italic,400,700,500|Roboto:400italic,700italic,500italic,400,700,300,500|Roboto+Condensed:400italic,700italic,400,700,500|Roboto2:400,300|Montserrat:400italic,700italic,400,700,500|Quicksand:400italic,700italic,400,700,500|Chewy:400italic,700italic,400,700,500|Indie+Flower:400italic,700italic,400,700,500|Orbitron:400italic,700italic,400,700,500|Cambria:400italic,700italic,400,700,500|Consolas:400italic,700italic,400,700,500|Calibri:400italic,700italic,400,700|Corsiva:400italic,700italic,400,700,500|Tahoma:400italic,700italic,400,700,500|Trebuchet+MS:400italic,700italic,400,700,500|Boogaloo|Bubblegum+Sans|Coming+Soon|Cormorant+Unicase:400,700|Oleo+Script:400,700|Permanent+Marker|Raleway:400,400i,700,700i|Reenie+Beanie|Eater|Great+Vibes|Google+Sans:400italic,700italic,400,700,500|Product+Sans:400" rel="stylesheet" type="text/css">
+              <style>
+                html {
+                  overflow: hidden;
+                }
+
+                body {
+                  margin: 0;
+                  user-select: none;
+                }
+
+                .vega-bindings {
+                  display: none;
+                }
+              </style>
+              <style id="vega-embed-style">.vega-embed {
+  position: relative;
+  display: inline-block;
+  box-sizing: border-box;
+}
+.vega-embed.has-actions {
+  padding-right: 38px;
+}
+.vega-embed details:not([open]) > :not(summary) {
+  display: none !important;
+}
+.vega-embed summary {
+  list-style: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 6px;
+  z-index: 1000;
+  background: white;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  color: #1b1e23;
+  border: 1px solid #aaa;
+  border-radius: 999px;
+  opacity: 0.2;
+  transition: opacity 0.4s ease-in;
+  cursor: pointer;
+  line-height: 0px;
+}
+.vega-embed summary::-webkit-details-marker {
+  display: none;
+}
+.vega-embed summary:active {
+  box-shadow: #aaa 0px 0px 0px 1px inset;
+}
+.vega-embed summary svg {
+  width: 14px;
+  height: 14px;
+}
+.vega-embed details[open] summary {
+  opacity: 0.7;
+}
+.vega-embed:hover summary, .vega-embed:focus-within summary {
+  opacity: 1 !important;
+  transition: opacity 0.2s ease;
+}
+.vega-embed .vega-actions {
+  position: absolute;
+  z-index: 1001;
+  top: 35px;
+  right: -9px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 8px;
+  padding-top: 8px;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2);
+  border: 1px solid #d9d9d9;
+  background: white;
+  animation-duration: 0.15s;
+  animation-name: scale-in;
+  animation-timing-function: cubic-bezier(0.2, 0, 0.13, 1.5);
+  text-align: left;
+}
+.vega-embed .vega-actions a {
+  padding: 8px 16px;
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  white-space: nowrap;
+  color: #434a56;
+  text-decoration: none;
+}
+.vega-embed .vega-actions a:hover, .vega-embed .vega-actions a:focus {
+  background-color: #f7f7f9;
+  color: black;
+}
+.vega-embed .vega-actions::before, .vega-embed .vega-actions::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+}
+.vega-embed .vega-actions::before {
+  left: auto;
+  right: 14px;
+  top: -16px;
+  border: 8px solid rgba(0, 0, 0, 0);
+  border-bottom-color: #d9d9d9;
+}
+.vega-embed .vega-actions::after {
+  left: auto;
+  right: 15px;
+  top: -14px;
+  border: 7px solid rgba(0, 0, 0, 0);
+  border-bottom-color: #fff;
+}
+.vega-embed .chart-wrapper.fit-x {
+  width: 100%;
+}
+.vega-embed .chart-wrapper.fit-y {
+  height: 100%;
+}
+
+.vega-embed-wrapper {
+  max-width: 100%;
+  overflow: auto;
+  padding-right: 14px;
+}
+
+@keyframes scale-in {
+  from {
+    opacity: 0;
+    transform: scale(0.6);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+</style></head><body><div id="target" class="vega-embed" role="graphics-document" aria-roledescription="visualization" aria-label="Vega visualization" style="cursor: default;"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="marks" width="897" height="489" viewBox="0 0 897 489"><g fill="none" stroke-miterlimit="10" transform="translate(50,50)"><g class="mark-group role-frame root" role="graphics-object" aria-roledescription="group mark container"><g transform="translate(0,0)"><path class="background" aria-hidden="true" d="M0.5,0.5h845v420h-845Z" fill="transparent" stroke="transparent"></path><g><g class="mark-group role-axis" role="graphics-symbol" aria-roledescription="axis" aria-label="Y-axis for a linear scale with values from 0 to 20,000,000,000"><g transform="translate(0.5,0.5)"><path class="background" aria-hidden="true" d="M0,0h0v0h0Z" pointer-events="none"></path><g><g class="mark-rule role-axis-grid" pointer-events="none"><line transform="translate(0,420)" x2="845" y2="0" stroke="#b8b8b8" stroke-width="0.5" stroke-dasharray="" opacity="1"></line><line transform="translate(0,368)" x2="845" y2="0" stroke="#b8b8b8" stroke-width="0.5" stroke-dasharray="" opacity="1"></line><line transform="translate(0,315)" x2="845" y2="0" stroke="#b8b8b8" stroke-width="0.5" stroke-dasharray="" opacity="1"></line><line transform="translate(0,263)" x2="845" y2="0" stroke="#b8b8b8" stroke-width="0.5" stroke-dasharray="" opacity="1"></line><line transform="translate(0,210)" x2="845" y2="0" stroke="#b8b8b8" stroke-width="0.5" stroke-dasharray="" opacity="1"></line><line transform="translate(0,158)" x2="845" y2="0" stroke="#b8b8b8" stroke-width="0.5" stroke-dasharray="" opacity="1"></line><line transform="translate(0,105)" x2="845" y2="0" stroke="#b8b8b8" stroke-width="0.5" stroke-dasharray="" opacity="1"></line><line transform="translate(0,53)" x2="845" y2="0" stroke="#b8b8b8" stroke-width="0.5" stroke-dasharray="" opacity="1"></line><line transform="translate(0,0)" x2="845" y2="0" stroke="#b8b8b8" stroke-width="0.5" stroke-dasharray="" opacity="1"></line></g><g class="mark-text role-axis-label" pointer-events="none"><text text-anchor="end" transform="translate(-11.65234375,424)" font-family="Arial" font-size="12px" font-style="normal" font-weight="normal" fill="#3c4043" opacity="1">0</text><text text-anchor="start" transform="translate(0,371.5)" font-family="Arial" font-size="12px" font-style="normal" font-weight="normal" fill="#3c4043" opacity="1"></text><text text-anchor="end" transform="translate(-11.65234375,319)" font-family="Arial" font-size="12px" font-style="normal" font-weight="normal" fill="#3c4043" opacity="1">5bn</text><text text-anchor="start" transform="translate(0,266.5)" font-family="Arial" font-size="12px" font-style="normal" font-weight="normal" fill="#3c4043" opacity="1"></text><text text-anchor="end" transform="translate(-11.65234375,214)" font-family="Arial" font-size="12px" font-style="normal" font-weight="normal" fill="#3c4043" opacity="1">10bn</text><text text-anchor="start" transform="translate(0,161.5)" font-family="Arial" font-size="12px" font-style="normal" font-weight="normal" fill="#3c4043" opacity="1"></text><text text-anchor="end" transform="translate(-11.65234375,109)" font-family="Arial" font-size="12px" font-style="normal" font-weight="normal" fill="#3c4043" opacity="1">15bn</text><text text-anchor="start" transform="translate(0,56.5)" font-family="Arial" font-size="12px" font-style="normal" font-weight="normal" fill="#3c4043" opacity="1"></text><text text-anchor="end" transform="translate(-11.65234375,4)" font-family="Arial" font-size="12px" font-style="normal" font-weight="normal" fill="#3c4043" opacity="1">20bn</text></g></g><path class="foreground" aria-hidden="true" d="" pointer-events="none" display="none"></path></g></g><g class="mark-group role-axis" role="graphics-symbol" aria-roledescription="axis" aria-label="X-axis for a discrete scale with 4 values: Q1, Q2, Q3, Q4"><g transform="translate(0,420.5)"><path class="background" aria-hidden="true" d="M0,0h0v0h0Z" pointer-events="none"></path><g><g class="mark-text role-axis-label bottomAxisLabels" pointer-events="none"><text text-anchor="middle" transform="translate(127.23255813953493,16)" font-family="Arial" font-size="12px" font-style="normal" font-weight="normal" fill="#3c4043" opacity="1">Q1</text><text text-anchor="middle" transform="translate(323.74418604651163,16)" font-family="Arial" font-size="12px" font-style="normal" font-weight="normal" fill="#3c4043" opacity="1">Q2</text><text text-anchor="middle" transform="translate(520.2558139534883,16)" font-family="Arial" font-size="12px" font-style="normal" font-weight="normal" fill="#3c4043" opacity="1">Q3</text><text text-anchor="middle" transform="translate(716.7674418604649,16)" font-family="Arial" font-size="12px" font-style="normal" font-weight="normal" fill="#3c4043" opacity="1">Q4</text></g><g class="mark-rule role-axis-domain" pointer-events="none"><line transform="translate(0,0)" x2="845" y2="0" stroke="#b8b8b8" stroke-width="1" opacity="1"></line></g></g><path class="foreground" aria-hidden="true" d="" pointer-events="none" display="none"></path></g></g><g class="mark-rect role-mark spacer" role="graphics-symbol" aria-roledescription="rect mark container" pointer-events="none"><path d="M-50,-50h50v50h-50Z" fill="#4c78a8" opacity="0"></path></g><g class="mark-group role-scope" role="graphics-object" aria-roledescription="group mark container"><g transform="translate(0,0)"><path class="background" aria-hidden="true" d="M0,0h846v420h-846Z"></path><g><g class="mark-rect role-mark chart" role="graphics-symbol" aria-roledescription="rect mark container"><path d="M0,0h846v420h-846Z" fill="transparent"></path></g><g class="mark-group role-scope" role="graphics-object" aria-roledescription="group mark container"><g transform="translate(58.95348837209309,0)"><path class="background" aria-hidden="true" d="M0,0h137.55813953488368v420h-137.55813953488368Z"></path><g><g class="mark-rect role-mark bar" role="graphics-symbol" aria-roledescription="rect mark container" clip-path="url(#clip47)"><path d="M0.3325275466606712,21.511673635199838h22.538407784709836v398.4883263648002h-22.538407784709836Z" fill="#4285f4"></path><path d="M23.203462878031175,154.863764916h22.538407784709836v265.13623508399996h-22.538407784709836Z" fill="#f59e52"></path><path d="M46.07439820940168,248.99440776h22.538407784709836v171.00559224h-22.538407784709836Z" fill="#ad7fe6"></path><path d="M68.94533354077218,410.9782131h22.538407784709836v9.021786899999995h-22.538407784709836Z" fill="#eac43b"></path><path d="M91.81626887214269,411.013398684h22.538407784709836v8.98660131600002h-22.538407784709836Z" fill="#b5c665"></path><path d="M114.68720420351319,419.311730124h22.538407784709836v0.6882698759999926h-22.538407784709836Z" fill="#2bb8ca"></path></g><g class="mark-rect role-mark" role="graphics-symbol" aria-roledescription="rect mark container" pointer-events="none" clip-path="url(#clip48)"><path d="M-0.1674724533393288,21.011673635199838h23.538407784709836v399.4883263648002h-23.538407784709836Z" stroke="#000000" stroke-opacity="0"></path><path d="M22.703462878031175,154.363764916h23.538407784709833v266.13623508399996h-23.538407784709833Z" stroke="#000000" stroke-opacity="0"></path><path d="M45.57439820940168,248.49440776h23.538407784709833v172.00559224h-23.538407784709833Z" stroke="#000000" stroke-opacity="0"></path><path d="M68.44533354077218,410.4782131h23.538407784709833v10.021786899999995h-23.538407784709833Z" stroke="#000000" stroke-opacity="0"></path><path d="M91.31626887214269,410.513398684h23.538407784709833v9.98660131600002h-23.538407784709833Z" stroke="#000000" stroke-opacity="0"></path><path d="M114.18720420351319,418.811730124h23.538407784709833v1.6882698759999926h-23.538407784709833Z" stroke="#000000" stroke-opacity="0"></path></g><g class="mark-rect role-mark" role="graphics-symbol" aria-roledescription="rect mark container" pointer-events="none" clip-path="url(#clip49)"><path d="M-1.1674724533393288,20.011673635199838h25.538407784709836v401.4883263648002h-25.538407784709836Z" stroke="#000000" stroke-opacity="0"></path><path d="M21.703462878031175,153.363764916h25.538407784709833v268.13623508399996h-25.538407784709833Z" stroke="#000000" stroke-opacity="0"></path><path d="M44.57439820940168,247.49440776h25.538407784709833v174.00559224h-25.538407784709833Z" stroke="#000000" stroke-opacity="0"></path><path d="M67.44533354077218,409.4782131h25.538407784709833v12.021786899999995h-25.538407784709833Z" stroke="#000000" stroke-opacity="0"></path><path d="M90.31626887214269,409.513398684h25.538407784709833v11.98660131600002h-25.538407784709833Z" stroke="#000000" stroke-opacity="0"></path><path d="M113.18720420351319,417.811730124h25.538407784709833v3.6882698759999926h-25.538407784709833Z" stroke="#000000" stroke-opacity="0"></path></g><g class="mark-rect role-mark" role="graphics-symbol" aria-roledescription="rect mark container" pointer-events="none" clip-path="url(#clip50)"><path d="M-2.167472453339329,19.011673635199838h27.538407784709836v403.4883263648002h-27.538407784709836Z" stroke="#000000" stroke-opacity="0"></path><path d="M20.703462878031175,152.363764916h27.538407784709833v270.13623508399996h-27.538407784709833Z" stroke="#000000" stroke-opacity="0"></path><path d="M43.57439820940168,246.49440776h27.538407784709833v176.00559224h-27.538407784709833Z" stroke="#000000" stroke-opacity="0"></path><path d="M66.44533354077218,408.4782131h27.538407784709833v14.021786899999995h-27.538407784709833Z" stroke="#000000" stroke-opacity="0"></path><path d="M89.31626887214269,408.513398684h27.538407784709833v13.98660131600002h-27.538407784709833Z" stroke="#000000" stroke-opacity="0"></path><path d="M112.18720420351319,416.811730124h27.538407784709833v5.688269875999993h-27.538407784709833Z" stroke="#000000" stroke-opacity="0"></path></g></g><path class="foreground" aria-hidden="true" d="" display="none"></path></g><g transform="translate(255.4651162790698,0)"><path class="background" aria-hidden="true" d="M0,0h137.55813953488368v420h-137.55813953488368Z"></path><g><g class="mark-rect role-mark bar" role="graphics-symbol" aria-roledescription="rect mark container" clip-path="url(#clip51)"><path d="M0.3325275466606712,125.01335698655993h22.538407784709836v294.9866430134401h-22.538407784709836Z" fill="#4285f4"></path><path d="M23.203462878031175,123.82420098048013h22.538407784709836v296.1757990195199h-22.538407784709836Z" fill="#f59e52"></path><path d="M46.07439820940168,87.02048040000001h22.538407784709836v332.9795196h-22.538407784709836Z" fill="#ad7fe6"></path><path d="M68.94533354077218,409.974907524h22.538407784709836v10.025092475999998h-22.538407784709836Z" fill="#eac43b"></path><path d="M91.81626887214269,410.714703672h22.538407784709836v9.285296328000015h-22.538407784709836Z" fill="#b5c665"></path><path d="M114.68720420351319,414.824104128h22.538407784709836v5.175895872000012h-22.538407784709836Z" fill="#2bb8ca"></path></g><g class="mark-rect role-mark" role="graphics-symbol" aria-roledescription="rect mark container" pointer-events="none" clip-path="url(#clip52)"><path d="M-0.1674724533393288,124.51335698655993h23.538407784709836v295.9866430134401h-23.538407784709836Z" stroke="#000000" stroke-opacity="0"></path><path d="M22.703462878031175,123.32420098048013h23.538407784709833v297.1757990195199h-23.538407784709833Z" stroke="#000000" stroke-opacity="0"></path><path d="M45.57439820940168,86.52048040000001h23.538407784709833v333.9795196h-23.538407784709833Z" stroke="#000000" stroke-opacity="0"></path><path d="M68.44533354077218,409.474907524h23.538407784709833v11.025092475999998h-23.538407784709833Z" stroke="#000000" stroke-opacity="0"></path><path d="M91.31626887214269,410.214703672h23.538407784709833v10.285296328000015h-23.538407784709833Z" stroke="#000000" stroke-opacity="0"></path><path d="M114.18720420351319,414.324104128h23.538407784709833v6.175895872000012h-23.538407784709833Z" stroke="#000000" stroke-opacity="0"></path></g><g class="mark-rect role-mark" role="graphics-symbol" aria-roledescription="rect mark container" pointer-events="none" clip-path="url(#clip53)"><path d="M-1.1674724533393288,123.51335698655993h25.538407784709836v297.9866430134401h-25.538407784709836Z" stroke="#000000" stroke-opacity="0"></path><path d="M21.703462878031175,122.32420098048013h25.538407784709833v299.1757990195199h-25.538407784709833Z" stroke="#000000" stroke-opacity="0"></path><path d="M44.57439820940168,85.52048040000001h25.538407784709833v335.9795196h-25.538407784709833Z" stroke="#000000" stroke-opacity="0"></path><path d="M67.44533354077218,408.474907524h25.538407784709833v13.025092475999998h-25.538407784709833Z" stroke="#000000" stroke-opacity="0"></path><path d="M90.31626887214269,409.214703672h25.538407784709833v12.285296328000015h-25.538407784709833Z" stroke="#000000" stroke-opacity="0"></path><path d="M113.18720420351319,413.324104128h25.538407784709833v8.175895872000012h-25.538407784709833Z" stroke="#000000" stroke-opacity="0"></path></g><g class="mark-rect role-mark" role="graphics-symbol" aria-roledescription="rect mark container" pointer-events="none" clip-path="url(#clip54)"><path d="M-2.167472453339329,122.51335698655993h27.538407784709836v299.9866430134401h-27.538407784709836Z" stroke="#000000" stroke-opacity="0"></path><path d="M20.703462878031175,121.32420098048013h27.538407784709833v301.1757990195199h-27.538407784709833Z" stroke="#000000" stroke-opacity="0"></path><path d="M43.57439820940168,84.52048040000001h27.538407784709833v337.9795196h-27.538407784709833Z" stroke="#000000" stroke-opacity="0"></path><path d="M66.44533354077218,407.474907524h27.538407784709833v15.025092475999998h-27.538407784709833Z" stroke="#000000" stroke-opacity="0"></path><path d="M89.31626887214269,408.214703672h27.538407784709833v14.285296328000015h-27.538407784709833Z" stroke="#000000" stroke-opacity="0"></path><path d="M112.18720420351319,412.324104128h27.538407784709833v10.175895872000012h-27.538407784709833Z" stroke="#000000" stroke-opacity="0"></path></g></g><path class="foreground" aria-hidden="true" d="" display="none"></path></g><g transform="translate(451.9767441860465,0)"><path class="background" aria-hidden="true" d="M0,0h137.55813953488368v420h-137.55813953488368Z"></path><g><g class="mark-rect role-mark bar" role="graphics-symbol" aria-roledescription="rect mark container" clip-path="url(#clip55)"><path d="M0.3325275466606712,22.93076826096003h22.538407784709836v397.06923173904h-22.538407784709836Z" fill="#4285f4"></path><path d="M23.203462878031175,145.65130099295993h22.538407784709836v274.34869900704007h-22.538407784709836Z" fill="#f59e52"></path><path d="M46.07439820940168,25.611838727999995h22.538407784709836v394.388161272h-22.538407784709836Z" fill="#ad7fe6"></path><path d="M68.94533354077218,113.4340284h22.538407784709836v306.5659716h-22.538407784709836Z" fill="#eac43b"></path><path d="M91.81626887214269,412.25954666399997h22.538407784709836v7.74045333600003h-22.538407784709836Z" fill="#b5c665"></path><path d="M114.68720420351319,418.266050328h22.538407784709836v1.7339496719999943h-22.538407784709836Z" fill="#2bb8ca"></path></g><g class="mark-rect role-mark" role="graphics-symbol" aria-roledescription="rect mark container" pointer-events="none" clip-path="url(#clip56)"><path d="M-0.1674724533393288,22.43076826096003h23.538407784709836v398.06923173904h-23.538407784709836Z" stroke="#000000" stroke-opacity="0"></path><path d="M22.703462878031175,145.15130099295993h23.538407784709833v275.34869900704007h-23.538407784709833Z" stroke="#000000" stroke-opacity="0"></path><path d="M45.57439820940168,25.111838727999995h23.538407784709833v395.388161272h-23.538407784709833Z" stroke="#000000" stroke-opacity="0"></path><path d="M68.44533354077218,112.9340284h23.538407784709833v307.5659716h-23.538407784709833Z" stroke="#000000" stroke-opacity="0"></path><path d="M91.31626887214269,411.75954666399997h23.538407784709833v8.74045333600003h-23.538407784709833Z" stroke="#000000" stroke-opacity="0"></path><path d="M114.18720420351319,417.766050328h23.538407784709833v2.7339496719999943h-23.538407784709833Z" stroke="#000000" stroke-opacity="0"></path></g><g class="mark-rect role-mark" role="graphics-symbol" aria-roledescription="rect mark container" pointer-events="none" clip-path="url(#clip57)"><path d="M-1.1674724533393288,21.43076826096003h25.538407784709836v400.06923173904h-25.538407784709836Z" stroke="#000000" stroke-opacity="0"></path><path d="M21.703462878031175,144.15130099295993h25.538407784709833v277.34869900704007h-25.538407784709833Z" stroke="#000000" stroke-opacity="0"></path><path d="M44.57439820940168,24.111838727999995h25.538407784709833v397.388161272h-25.538407784709833Z" stroke="#000000" stroke-opacity="0"></path><path d="M67.44533354077218,111.9340284h25.538407784709833v309.5659716h-25.538407784709833Z" stroke="#000000" stroke-opacity="0"></path><path d="M90.31626887214269,410.75954666399997h25.538407784709833v10.74045333600003h-25.538407784709833Z" stroke="#000000" stroke-opacity="0"></path><path d="M113.18720420351319,416.766050328h25.538407784709833v4.733949671999994h-25.538407784709833Z" stroke="#000000" stroke-opacity="0"></path></g><g class="mark-rect role-mark" role="graphics-symbol" aria-roledescription="rect mark container" pointer-events="none" clip-path="url(#clip58)"><path d="M-2.167472453339329,20.43076826096003h27.538407784709836v402.06923173904h-27.538407784709836Z" stroke="#000000" stroke-opacity="0"></path><path d="M20.703462878031175,143.15130099295993h27.538407784709833v279.34869900704007h-27.538407784709833Z" stroke="#000000" stroke-opacity="0"></path><path d="M43.57439820940168,23.111838727999995h27.538407784709833v399.388161272h-27.538407784709833Z" stroke="#000000" stroke-opacity="0"></path><path d="M66.44533354077218,110.9340284h27.538407784709833v311.5659716h-27.538407784709833Z" stroke="#000000" stroke-opacity="0"></path><path d="M89.31626887214269,409.75954666399997h27.538407784709833v12.74045333600003h-27.538407784709833Z" stroke="#000000" stroke-opacity="0"></path><path d="M112.18720420351319,415.766050328h27.538407784709833v6.733949671999994h-27.538407784709833Z" stroke="#000000" stroke-opacity="0"></path></g></g><path class="foreground" aria-hidden="true" d="" display="none"></path></g><g transform="translate(648.4883720930231,0)"><path class="background" aria-hidden="true" d="M0,0h137.55813953488368v420h-137.55813953488368Z"></path><g><g class="mark-rect role-mark bar" role="graphics-symbol" aria-roledescription="rect mark container" clip-path="url(#clip59)"><path d="M0.3325275466606712,42.023442098400096h22.538407784709836v377.9765579015999h-22.538407784709836Z" fill="#4285f4"></path><path d="M23.203462878031175,60.87587654399999h22.538407784709836v359.124123456h-22.538407784709836Z" fill="#f59e52"></path><path d="M46.07439820940168,333.51096004799996h22.538407784709836v86.48903995200004h-22.538407784709836Z" fill="#ad7fe6"></path><path d="M68.94533354077218,398.357379924h22.538407784709836v21.642620076000014h-22.538407784709836Z" fill="#eac43b"></path><path d="M91.81626887214269,408.991560096h22.538407784709836v11.008439904h-22.538407784709836Z" fill="#b5c665"></path><path d="M114.68720420351319,404.047274232h22.538407784709836v15.952725767999993h-22.538407784709836Z" fill="#2bb8ca"></path></g><g class="mark-rect role-mark" role="graphics-symbol" aria-roledescription="rect mark container" pointer-events="none" clip-path="url(#clip60)"><path d="M-0.1674724533393288,41.523442098400096h23.538407784709836v378.9765579015999h-23.538407784709836Z" stroke="#000000" stroke-opacity="0"></path><path d="M22.703462878031175,60.37587654399999h23.538407784709833v360.124123456h-23.538407784709833Z" stroke="#000000" stroke-opacity="0"></path><path d="M45.57439820940168,333.01096004799996h23.538407784709833v87.48903995200004h-23.538407784709833Z" stroke="#000000" stroke-opacity="0"></path><path d="M68.44533354077218,397.857379924h23.538407784709833v22.642620076000014h-23.538407784709833Z" stroke="#000000" stroke-opacity="0"></path><path d="M91.31626887214269,408.491560096h23.538407784709833v12.008439904h-23.538407784709833Z" stroke="#000000" stroke-opacity="0"></path><path d="M114.18720420351319,403.547274232h23.538407784709833v16.952725767999993h-23.538407784709833Z" stroke="#000000" stroke-opacity="0"></path></g><g class="mark-rect role-mark" role="graphics-symbol" aria-roledescription="rect mark container" pointer-events="none" clip-path="url(#clip61)"><path d="M-1.1674724533393288,40.523442098400096h25.538407784709836v380.9765579015999h-25.538407784709836Z" stroke="#000000" stroke-opacity="0"></path><path d="M21.703462878031175,59.37587654399999h25.538407784709833v362.124123456h-25.538407784709833Z" stroke="#000000" stroke-opacity="0"></path><path d="M44.57439820940168,332.01096004799996h25.538407784709833v89.48903995200004h-25.538407784709833Z" stroke="#000000" stroke-opacity="0"></path><path d="M67.44533354077218,396.857379924h25.538407784709833v24.642620076000014h-25.538407784709833Z" stroke="#000000" stroke-opacity="0"></path><path d="M90.31626887214269,407.491560096h25.538407784709833v14.008439904h-25.538407784709833Z" stroke="#000000" stroke-opacity="0"></path><path d="M113.18720420351319,402.547274232h25.538407784709833v18.952725767999993h-25.538407784709833Z" stroke="#000000" stroke-opacity="0"></path></g><g class="mark-rect role-mark" role="graphics-symbol" aria-roledescription="rect mark container" pointer-events="none" clip-path="url(#clip62)"><path d="M-2.167472453339329,39.523442098400096h27.538407784709836v382.9765579015999h-27.538407784709836Z" stroke="#000000" stroke-opacity="0"></path><path d="M20.703462878031175,58.37587654399999h27.538407784709833v364.124123456h-27.538407784709833Z" stroke="#000000" stroke-opacity="0"></path><path d="M43.57439820940168,331.01096004799996h27.538407784709833v91.48903995200004h-27.538407784709833Z" stroke="#000000" stroke-opacity="0"></path><path d="M66.44533354077218,395.857379924h27.538407784709833v26.642620076000014h-27.538407784709833Z" stroke="#000000" stroke-opacity="0"></path><path d="M89.31626887214269,406.491560096h27.538407784709833v16.008439904h-27.538407784709833Z" stroke="#000000" stroke-opacity="0"></path><path d="M112.18720420351319,401.547274232h27.538407784709833v20.952725767999993h-27.538407784709833Z" stroke="#000000" stroke-opacity="0"></path></g></g><path class="foreground" aria-hidden="true" d="" display="none"></path></g></g></g><path class="foreground" aria-hidden="true" d="" display="none"></path></g></g><g class="mark-group role-scope legendGroup" role="graphics-object" aria-roledescription="group mark container" clip-path="url(#clip63)"><g transform="translate(0,0)"><path class="background" aria-hidden="true" d="M0,0h845v420h-845Z"></path><g><g class="mark-group role-legend" role="graphics-symbol" aria-roledescription="legend" aria-label="Symbol legend for fill color and stroke color with 6 values: 0, 1, 2, 3, 4, 5"><g transform="translate(0,-30)"><path class="background" aria-hidden="true" d="M0,0h633v14h-633Z" pointer-events="none"></path><g><g class="mark-group role-legend-entry"><g transform="translate(0,0)"><path class="background" aria-hidden="true" d="M0,0h0v0h0Z" pointer-events="none"></path><g><g class="mark-group role-scope legendEntries" role="graphics-object" aria-roledescription="group mark container"><g transform="translate(0,0)"><path class="background" aria-hidden="true" d="M0,0h107.9791015625v14h-107.9791015625Z" fill="transparent" opacity="1"></path><g><g class="mark-symbol role-legend-symbol" pointer-events="none" clip-path="url(#clip64)"><path transform="translate(12,7)" d="M-9.899,-4.95L14.849,-4.95L14.849,4.95L-9.899,4.95Z" fill="#4285f4" stroke="#4285f4" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" opacity="1"></path></g><g class="mark-text role-legend-label" pointer-events="none"><text text-anchor="start" transform="translate(36.4,11)" font-family="Arial" font-size="14px" fill="#3c4043" opacity="1">Credit Card</text></g></g><path class="foreground" aria-hidden="true" d="" display="none"></path></g><g transform="translate(116,0)"><path class="background" aria-hidden="true" d="M0,0h102.54453125v14h-102.54453125Z" fill="transparent" opacity="1"></path><g><g class="mark-symbol role-legend-symbol" pointer-events="none" clip-path="url(#clip65)"><path transform="translate(12,7)" d="M-9.899,-4.95L14.849,-4.95L14.849,4.95L-9.899,4.95Z" fill="#f59e52" stroke="#f59e52" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" opacity="1"></path></g><g class="mark-text role-legend-label" pointer-events="none"><text text-anchor="start" transform="translate(36.4,11)" font-family="Arial" font-size="14px" fill="#3c4043" opacity="1">EasyPaisa</text></g></g><path class="foreground" aria-hidden="true" d="" display="none"></path></g><g transform="translate(227,0)"><path class="background" aria-hidden="true" d="M0,0h36.39999999999998v14h-36.39999999999998Z" fill="transparent" opacity="1"></path><g><g class="mark-symbol role-legend-symbol" pointer-events="none" clip-path="url(#clip66)"><path transform="translate(12,7)" d="M-9.899,-4.95L14.849,-4.95L14.849,4.95L-9.899,4.95Z" fill="#ad7fe6" stroke="#ad7fe6" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" opacity="1"></path></g><g class="mark-text role-legend-label" pointer-events="none"><text text-anchor="start" transform="translate(36.4,11)" font-family="Arial" font-size="14px" fill="#3c4043" opacity="1"></text></g></g><path class="foreground" aria-hidden="true" d="" display="none"></path></g><g transform="translate(272,0)"><path class="background" aria-hidden="true" d="M0,0h103.31699218749998v14h-103.31699218749998Z" fill="transparent" opacity="1"></path><g><g class="mark-symbol role-legend-symbol" pointer-events="none" clip-path="url(#clip67)"><path transform="translate(12,7)" d="M-9.899,-4.95L14.849,-4.95L14.849,4.95L-9.899,4.95Z" fill="#eac43b" stroke="#eac43b" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" opacity="1"></path></g><g class="mark-text role-legend-label" pointer-events="none"><text text-anchor="start" transform="translate(36.4,11)" font-family="Arial" font-size="14px" fill="#3c4043" opacity="1">Debit Card</text></g></g><path class="foreground" aria-hidden="true" d="" display="none"></path></g><g transform="translate(384,0)"><path class="background" aria-hidden="true" d="M0,0h97.86874999999998v14h-97.86874999999998Z" fill="transparent" opacity="1"></path><g><g class="mark-symbol role-legend-symbol" pointer-events="none" clip-path="url(#clip68)"><path transform="translate(12,7)" d="M-9.899,-4.95L14.849,-4.95L14.849,4.95L-9.899,4.95Z" fill="#b5c665" stroke="#b5c665" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" opacity="1"></path></g><g class="mark-text role-legend-label" pointer-events="none"><text text-anchor="start" transform="translate(36.4,11)" font-family="Arial" font-size="14px" fill="#3c4043" opacity="1">JazzCash</text></g></g><path class="foreground" aria-hidden="true" d="" display="none"></path></g><g transform="translate(490,0)"><path class="background" aria-hidden="true" d="M0,0h142.99960937499998v14h-142.99960937499998Z" fill="transparent" opacity="1"></path><g><g class="mark-symbol role-legend-symbol" pointer-events="none" clip-path="url(#clip69)"><path transform="translate(12,7)" d="M-9.899,-4.95L14.849,-4.95L14.849,4.95L-9.899,4.95Z" fill="#2bb8ca" stroke="#2bb8ca" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" opacity="1"></path></g><g class="mark-text role-legend-label" pointer-events="none"><text text-anchor="start" transform="translate(36.4,11)" font-family="Arial" font-size="14px" fill="#3c4043" opacity="1">Cash on Delivery</text></g></g><path class="foreground" aria-hidden="true" d="" display="none"></path></g></g></g><path class="foreground" aria-hidden="true" d="" pointer-events="none" display="none"></path></g></g></g><path class="foreground" aria-hidden="true" d="" pointer-events="none" display="none"></path></g></g></g><path class="foreground" aria-hidden="true" d="" display="none"></path></g></g></g><path class="foreground" aria-hidden="true" d="" display="none"></path></g></g></g><defs><clippath id="clip47"><rect x="0" y="0" width="137.55813953488368" height="420"></rect></clippath><clippath id="clip48"><rect x="0" y="0" width="137.55813953488368" height="420"></rect></clippath><clippath id="clip49"><rect x="0" y="0" width="137.55813953488368" height="420"></rect></clippath><clippath id="clip50"><rect x="0" y="0" width="137.55813953488368" height="420"></rect></clippath><clippath id="clip51"><rect x="0" y="0" width="137.55813953488368" height="420"></rect></clippath><clippath id="clip52"><rect x="0" y="0" width="137.55813953488368" height="420"></rect></clippath><clippath id="clip53"><rect x="0" y="0" width="137.55813953488368" height="420"></rect></clippath><clippath id="clip54"><rect x="0" y="0" width="137.55813953488368" height="420"></rect></clippath><clippath id="clip55"><rect x="0" y="0" width="137.55813953488368" height="420"></rect></clippath><clippath id="clip56"><rect x="0" y="0" width="137.55813953488368" height="420"></rect></clippath><clippath id="clip57"><rect x="0" y="0" width="137.55813953488368" height="420"></rect></clippath><clippath id="clip58"><rect x="0" y="0" width="137.55813953488368" height="420"></rect></clippath><clippath id="clip59"><rect x="0" y="0" width="137.55813953488368" height="420"></rect></clippath><clippath id="clip60"><rect x="0" y="0" width="137.55813953488368" height="420"></rect></clippath><clippath id="clip61"><rect x="0" y="0" width="137.55813953488368" height="420"></rect></clippath><clippath id="clip62"><rect x="0" y="0" width="137.55813953488368" height="420"></rect></clippath><clippath id="clip63"><path d="M -50 -50 L 917 -50 L 917 520 L -50 520 Z"></path></clippath><clippath id="clip64"><rect x="0" y="0" width="107.9791015625" height="14"></rect></clippath><clippath id="clip65"><rect x="0" y="0" width="102.54453125" height="14"></rect></clippath><clippath id="clip66"><rect x="0" y="0" width="36.39999999999998" height="14"></rect></clippath><clippath id="clip67"><rect x="0" y="0" width="103.31699218749998" height="14"></rect></clippath><clippath id="clip68"><rect x="0" y="0" width="97.86874999999998" height="14"></rect></clippath><clippath id="clip69"><rect x="0" y="0" width="142.99960937499998" height="14"></rect></clippath></defs></svg><form class="vega-bindings"></form></div>
+              <div id="fixed"></div>
+              <script src="https://www.gstatic.com/external_hosted/vega/vega.js"></script>
+              <script src="https://www.gstatic.com/external_hosted/vega_embed/vega-embed.js"></script>
+              <script type="text/javascript">
+                let mainEventPort;
+                let currentVegaViewPromise = Promise.resolve(undefined);
+
+                function handleVegaEmbed(requestPort, spec, fixedSpec, mainHeight) {
+                  mainEventPort = requestPort;
+                  const tooltip = (handler, mouseEvent, item, value) => {
+                    if (mainEventPort) {
+                      mainEventPort.postMessage({
+                        type: 'tooltip',
+                        value,
+                        bounds: item._svg.getBoundingClientRect(),
+                      });
+                    }
+                  };
+
+                  const vegaOptions = {
+                    mode: 'vega',
+                    ast: true,
+                    actions: false,
+                    renderer: 'svg',
+                    tooltip,
+                  };
+                  currentVegaViewPromise = vegaEmbed('#target', spec, vegaOptions).then(({view}) => {
+                      
+        view.addSignalListener('select', (signal, datum) => {
+          if (mainEventPort) {
+            mainEventPort.postMessage({
+              type: 'signal',
+              signal: 'select',
+              datum,
+            });
+          }
+        });
+      
+        view.addSignalListener('multiselect', (signal, datum) => {
+          if (mainEventPort) {
+            mainEventPort.postMessage({
+              type: 'signal',
+              signal: 'multiselect',
+              datum,
+            });
+          }
+        });
+      
+        view.addSignalListener('brushSelect', (signal, datum) => {
+          if (mainEventPort) {
+            mainEventPort.postMessage({
+              type: 'signal',
+              signal: 'brushSelect',
+              datum,
+            });
+          }
+        });
+      
+        view.addSignalListener('brushMultiselect', (signal, datum) => {
+          if (mainEventPort) {
+            mainEventPort.postMessage({
+              type: 'signal',
+              signal: 'brushMultiselect',
+              datum,
+            });
+          }
+        });
+      
+        view.addSignalListener('zoomX', (signal, datum) => {
+          if (mainEventPort) {
+            mainEventPort.postMessage({
+              type: 'signal',
+              signal: 'zoomX',
+              datum,
+            });
+          }
+        });
+      
+        view.addSignalListener('zoomDualY', (signal, datum) => {
+          if (mainEventPort) {
+            mainEventPort.postMessage({
+              type: 'signal',
+              signal: 'zoomDualY',
+              datum,
+            });
+          }
+        });
+      
+        view.addSignalListener('zoomY', (signal, datum) => {
+          if (mainEventPort) {
+            mainEventPort.postMessage({
+              type: 'signal',
+              signal: 'zoomY',
+              datum,
+            });
+          }
+        });
+      
+        view.addSignalListener('viewportX', (signal, datum) => {
+          if (mainEventPort) {
+            mainEventPort.postMessage({
+              type: 'signal',
+              signal: 'viewportX',
+              datum,
+            });
+          }
+        });
+      
+        view.addSignalListener('viewportDualY', (signal, datum) => {
+          if (mainEventPort) {
+            mainEventPort.postMessage({
+              type: 'signal',
+              signal: 'viewportDualY',
+              datum,
+            });
+          }
+        });
+      
+        view.addSignalListener('viewportY', (signal, datum) => {
+          if (mainEventPort) {
+            mainEventPort.postMessage({
+              type: 'signal',
+              signal: 'viewportY',
+              datum,
+            });
+          }
+        });
+      
+                      if (mainEventPort) {
+                        mainEventPort.postMessage({type: 'ready'});
+                      }
+                      return view;
+                  });
+
+                  const mainSection = document.querySelector('#target');
+                  const fixedSection = document.querySelector('#fixed');
+                  if (fixedSpec) {
+                    mainSection.style.overflowY =
+                      spec.height - mainHeight < 2 ? 'hidden' : 'auto';
+                    mainSection.style.overflowX = 'hidden';
+                    mainSection.style.width = '100%';
+                    mainSection.style.height = mainHeight + 'px';
+                    fixedSpec.config = spec.config;
+                    fixedSpec.data = spec.data;
+                    fixedSpec.padding = spec.padding;
+                    vegaEmbed('#fixed', fixedSpec, vegaOptions);
+                  } else {
+                    mainSection.style.overflowY = null;
+                    mainSection.style.overflowX = null;
+                    mainSection.style.width = null;
+                    mainSection.style.height = null;
+                    fixedSection.innerHTML = '';
+                  }
+                }
+
+                async function handleGenerateVegaPng(requestPort) {
+                  try {
+                    const view = await currentVegaViewPromise;
+                    if (!view) {
+                      throw new Error('Cannot generate image: Vega view not ready.');
+                    }
+                    const url = await view.toImageURL('png', window.devicePixelRatio);
+                    if (requestPort) {
+                      requestPort.postMessage({type: 'pngGenerated', url});
+                    }
+                  } catch (error) {
+                    if (requestPort) {
+                      requestPort.postMessage({type: 'pngError', error: error.message});
+                    }
+                  } finally {
+                    if (requestPort) {
+                      requestPort.close();
+                    }
+                  }
+                }
+
+                window.addEventListener('message', messageEvent => {
+                  if(messageEvent.source !== window.parent ||
+                    messageEvent.origin !== 'https://datastudio.google.com'){
+                    return;
+                  }
+                  const requestPort = messageEvent.ports[0];
+                  const {spec, fixedSpec, mainHeight, generateVegaPng} = messageEvent.data;
+
+                  if (generateVegaPng) {
+                    handleGenerateVegaPng(requestPort);
+                  } else {
+                    handleVegaEmbed(requestPort, spec, fixedSpec, mainHeight);
+                  }
+                });
+                window.addEventListener('contextmenu', e => {
+                  if (mainEventPort) {
+                    mainEventPort.postMessage({
+                      type: 'contextmenu',
+                      clientX: e.clientX,
+                      clientY: e.clientY,
+                    });
+                  }
+                  e.preventDefault();
+                });
+                for (const eventType of ['mousedown', 'mouseup', 'mousemove']) {
+                  window.addEventListener(eventType, e => {
+                    if (mainEventPort) {
+                      mainEventPort.postMessage({
+                        type: 'mouse',
+                        eventType,
+                        clientX: e.clientX,
+                        clientY: e.clientY,
+                        movementX: e.movementX,
+                        movementY: e.movementY,
+                        buttons: e.buttons,
+                        detail: e.detail,
+                        altKey: e.altKey,
+                        ctrlKey: e.ctrlKey,
+                        shiftKey: e.shiftKey,
+                      });
+                    }
+                  });
+                }
+                for (const eventType of ['keydown', 'keyup', 'keypress']) {
+                  window.addEventListener(eventType, e => {
+                    if (mainEventPort) {
+                      mainEventPort.postMessage({
+                        type: 'key',
+                        eventType,
+                        altKey: e.altKey,
+                        code: e.code,
+                        ctrlKey: e.ctrlKey,
+                        isComposing: e.isComposing,
+                        key: e.key,
+                        location: e.location,
+                        metaKey: e.metaKey,
+                        repeat: e.repeat,
+                        shiftKey: e.shiftKey,
+                      });
+                    }
+                  });
+                }
+                window.addEventListener('unload', () => {
+                  if (mainEventPort) {
+                    mainEventPort.postMessage({type: 'unload'});
+                  }
+                });
+              </script>
+            </body></html>
