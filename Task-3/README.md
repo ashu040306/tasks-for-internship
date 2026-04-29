@@ -25,8 +25,7 @@ Using historical monthly sales data from 2022, a prediction model is built to es
 
 ---
 
-Google Looker Studio:https://datastudio.google.com/reporting/ed3d9c12-4404-46c5-97fa-1d2f27be99e2
-## Dataset Features Used
+Google Looker Studio:https://datastudio.google.com/reporting/41bbd3b8-8418-4bb1-bee3-57680e0a8e7e
 
 The following fields were used from the dataset:
 
